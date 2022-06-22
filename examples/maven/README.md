@@ -8,8 +8,7 @@ This example creates a `maven-packages` repository along with `maven-packages` u
 
 ```bash
 export ARTIFACTORY_URL="https://repo.domain.com/artifactory"
-export ARTIFACTORY_USERNAME="<terraform_username>"
-export ARTIFACTORY_PASSWORD="<terraform_password>"
+export ARTIFACTORY_ACCESS_TOKEN="<Token>"
 ```
 
 ```bash

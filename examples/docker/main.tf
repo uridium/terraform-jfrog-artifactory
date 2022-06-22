@@ -1,8 +1,8 @@
 module "repository" {
   source       = "../.."
 
-  key          = "docker-registry"
+  key          = "my-docker-registry"
   package_type = "docker"
-  description  = "Docker images registry"
-  email        = "contact@email.com"
+  description  = "Docker images registry2"
+  email        = "contact@email.comf"
 }
