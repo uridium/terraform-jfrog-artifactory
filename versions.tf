@@ -1,14 +1,14 @@
 terraform {
-  required_version = "~> 1.0"
+  required_version = ">= 1.2"
 
   required_providers {
     artifactory = {
       source  = "jfrog/artifactory"
-      version = "~> 2.2.15"
+      version = "~> 5.0.0"
     }
     random = {
       source  = "hashicorp/random"
-      version = "~> 3.1.0"
+      version = ">= 3.3.0"
     }
   }
 }

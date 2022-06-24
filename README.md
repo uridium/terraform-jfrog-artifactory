@@ -58,9 +58,9 @@ You also need to create strict IAM policies to control access to your state file
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
-| <a name="requirement_artifactory"></a> [artifactory](#requirement\_artifactory) | ~> 2.2.15 |
-| <a name="requirement_random"></a> [random](#requirement\_random) | ~> 3.1.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.2 |
+| <a name="requirement_artifactory"></a> [artifactory](#requirement\_artifactory) | ~> 5.0.0 |
+| <a name="requirement_random"></a> [random](#requirement\_random) | >= 3.3.0 |
 
 ## Resources
 
